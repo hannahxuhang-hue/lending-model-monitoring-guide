@@ -148,7 +148,7 @@ please open an issue or get in touch. Feedback from practitioners shapes the nex
 ## How to cite
 
 See [`CITATION.cff`](CITATION.cff), or: Xu, H. (2026). *Lending Model Monitoring Guide* (Version 1.0).
-https://github.com/<your-username>/lending-model-monitoring-guide
+https://github.com/hannahxuhang-hue/lending-model-monitoring-guide
 
 ## License
 
