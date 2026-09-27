@@ -9,7 +9,7 @@ authors:
 version: "1.0.0"
 date-released: "2026-10-01"
 license: ["CC-BY-4.0", "MIT"]
-repository-code: "https://github.com/<your-username>/lending-model-monitoring-guide"
+repository-code: "https://github.com/hannahxuhang-hue/lending-model-monitoring-guide"
 keywords:
   - model risk management
   - model monitoring
