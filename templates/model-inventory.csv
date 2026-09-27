@@ -1,0 +1,2 @@
+model_name,purpose_and_decision_driven,owner,built_by,inputs_and_sources,output_and_cutoff,monthly_volume,materiality_tier,baseline_period,last_review_date,last_reviewed_by,known_limitations
+Example: small-business scorecard v2,Approve / refer / decline for loans under $100k,Head of Credit,In-house,"Bureau score (bureau); years in business, revenue, DSCR (application); ZIP median income (census)","PD; approve if PD <= 0.227, refer 0.227-0.30",60,High,Jan 2024 - Dec 2025 bookings,2026-03-31,Head of Credit,Thin data for businesses under 1 year

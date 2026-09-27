@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use or adapt this guide, please cite it as below."
+title: "Lending Model Monitoring Guide"
+abstract: "A practical monitoring framework for lending models at small institutions (CDFIs, community development credit unions, community banks, and loan funds): what to check, how often, alert thresholds sized for small portfolios, owners and actions, input-level fair-lending review, and documentation templates, with a spreadsheet calculator and a worked example on synthetic data."
+authors:
+  - family-names: "Xu"
+    given-names: "Hang"
+    alias: "Hannah Xu"
+version: "1.0.0"
+date-released: "2026-10-01"
+license: ["CC-BY-4.0", "MIT"]
+repository-code: "https://github.com/<your-username>/lending-model-monitoring-guide"
+keywords:
+  - model risk management
+  - model monitoring
+  - CDFI
+  - community banks
+  - credit unions
+  - fair lending
+  - population stability index
