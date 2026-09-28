@@ -98,7 +98,7 @@ and replace the yellow example values with your own counts.
 **Python:**
 
 ```bash
-git clone https://github.com/<your-username>/lending-model-monitoring-guide.git
+git clone https://github.com/hannahxuhang-hue/lending-model-monitoring-guide.git
 cd lending-model-monitoring-guide
 pip install -r requirements.txt
 cd examples && jupyter notebook walkthrough.ipynb
@@ -115,7 +115,7 @@ or model. The group-membership probabilities are simulated, not computed from na
 
 ## Companion repository
 
-[**Causal Uplift Targeting Guide**](https://github.com/<your-username>/causal-uplift-targeting-guide): measuring and
+[**Causal Uplift Targeting Guide**](https://github.com/hannahxuhang-hue/causal-uplift-targeting-guide): measuring and
 targeting the incremental effect of outreach at small lenders. Any targeting model it produces belongs in the monitoring
 cycle described here.
 
