@@ -142,8 +142,7 @@ illustrative starting points. Confirm your obligations with counsel and your exa
 
 ## Feedback and use
 
-If you work at a lender or network and use or adapt this material, or find it doesn't fit how you work,
-please open an issue or get in touch. Feedback from practitioners shapes the next revision.
+If you work at a lender or network and use or adapt this material, or find it doesn't fit how you work, please [share how you used it](https://github.com/hannahxuhang-hue/lending-model-monitoring-guide/issues/new?template=feedback.yml) or open an issue. See [CONTRIBUTING.md](CONTRIBUTING.md) for other ways to help. Changes made in response to feedback are recorded in [CHANGELOG.md](CHANGELOG.md).
 
 ## How to cite
 

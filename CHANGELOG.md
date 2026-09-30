@@ -2,6 +2,7 @@
 
 ## 1.0.0 (2026-10-01)
 First public release.
+- Contributing guide and a feedback form for practitioners (`CONTRIBUTING.md`, `.github/ISSUE_TEMPLATE/`)
 - Guide chapters 1–8 and regulatory appendix (current to September 2026)
 - One-page checklist and starting alert thresholds
 - Templates: model inventory, monitoring report, fair-lending review
