@@ -50,6 +50,17 @@ Plot cumulative 30+ DPD rate by months on book, one line per booking quarter. A 
 older ones at the same age is the same signal as 3.2, shown as a picture. Credit committees usually find this
 chart easier to read than a ratio.
 
+The **"Vintage curves" tab** of the [spreadsheet calculator](../spreadsheet/monitoring-calculator.xlsx) does this
+without code. Enter loans booked and the cumulative count 30+ days past due for each booking quarter, leaving a cell
+blank until the vintage reaches that age. It computes the rates, shades them so a high vintage stands out, and compares
+each vintage with the average of earlier vintages at the same age, using the same amber (1.25×) and red (1.5×) starting
+points as the early-warning check.
+
+With around 100 loans per vintage, one or two loans move a rate by one to two percentage points, so early months are
+noisy. In the example, the 2024 Q4 vintage flags amber at 3 and 6 months on book on a difference of one or two loans, then falls back in line by 9 months. Treat a flag at
+3 months on book as a reason to look again next quarter, and confirm a red vintage with the early-warning ratio in 3.2
+before acting.
+
 ## 3.4 When an early warning fires
 
 The model may not be the cause. Before changing anything:

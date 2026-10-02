@@ -1,5 +1,9 @@
 # Changelog
 
+## Unreleased
+- Spreadsheet: new "Vintage curves" tab (cumulative 30+ DPD by booking quarter and months on book, compared with earlier vintages at the same age)
+- Guide chapter 3.3: how to use the new tab, and a note on noise at small vintage sizes
+
 ## 1.0.0 (2026-10-01)
 First public release.
 - Contributing guide and a feedback form for practitioners (`CONTRIBUTING.md`, `.github/ISSUE_TEMPLATE/`)
@@ -10,5 +14,4 @@ First public release.
 - Worked example on synthetic data (`examples/walkthrough.ipynb`)
 
 ## Planned
-- Worked spreadsheet example for vintage curves
 - Revisions based on practitioner feedback
