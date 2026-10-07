@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Contributing and feedback guidelines
+    url: https://github.com/hannahxuhang-hue/lending-model-monitoring-guide/blob/main/CONTRIBUTING.md
+    about: Other ways to help, and what not to share.
