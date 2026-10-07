@@ -1,0 +1,75 @@
+name: Share how you used this guide
+description: Tell us how you used or adapted the guide at your institution, what worked, and what didn't fit.
+title: "[Use report] "
+labels: ["practitioner feedback"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for taking the time. Reports from people doing this work are what improve the guide.
+
+        **Please don't post** customer data, loan-level data, internal thresholds, or anything your institution
+        considers confidential. Describe your situation in general terms. Prefer email? See CONTRIBUTING.md.
+  - type: dropdown
+    id: institution_type
+    attributes:
+      label: What kind of institution do you work at or with?
+      options:
+        - CDFI loan fund
+        - Community development credit union
+        - Other credit union
+        - Community bank
+        - CDFI or credit-union network / intermediary
+        - Consultant or technical-assistance provider
+        - Regulator or examiner
+        - Researcher or student
+        - Other
+    validations:
+      required: true
+  - type: dropdown
+    id: attribution
+    attributes:
+      label: How may your institution be referred to if this feedback is cited in the changelog?
+      options:
+        - By name (I will give it below)
+        - Anonymized by type only (for example, "a community development credit union")
+        - Please don't cite this feedback
+    validations:
+      required: true
+  - type: input
+    id: institution_name
+    attributes:
+      label: Institution name (optional; only if you chose "by name")
+  - type: checkboxes
+    id: parts_used
+    attributes:
+      label: Which parts did you use?
+      options:
+        - label: One-page checklist
+        - label: Guide chapters (read or shared with colleagues)
+        - label: Starting thresholds (thresholds.csv)
+        - label: "Spreadsheet calculator: PSI / early warning / vintage curves"
+        - label: "Spreadsheet calculator: adverse impact ratio"
+        - label: Model inventory, monitoring report, or fair-lending review template
+        - label: Python worked example or monitoring_checks.py
+        - label: Adapted it into our own monitoring policy or procedure
+  - type: textarea
+    id: what_you_did
+    attributes:
+      label: What did you do with it?
+      description: For example, the decision you were trying to make, who was involved, and roughly what volumes you work with.
+    validations:
+      required: true
+  - type: textarea
+    id: what_worked
+    attributes:
+      label: What worked?
+  - type: textarea
+    id: what_didnt_fit
+    attributes:
+      label: What didn't fit, was unclear, or was missing?
+  - type: textarea
+    id: anything_else
+    attributes:
+      label: Anything else?
+      description: Changes you made to adapt it, questions, or what you would like to see added.
