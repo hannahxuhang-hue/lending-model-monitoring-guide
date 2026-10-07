@@ -146,7 +146,7 @@ If you work at a lender or network and use or adapt this material, or find it do
 
 ## How to cite
 
-See [`CITATION.cff`](CITATION.cff), or: Xu, H. (2026). *Lending Model Monitoring Guide* (Version 1.0).
+See [`CITATION.cff`](CITATION.cff), or: Xu, H. (2026). *Lending Model Monitoring Guide* (Version 1.1).
 https://github.com/hannahxuhang-hue/lending-model-monitoring-guide
 
 ## License
