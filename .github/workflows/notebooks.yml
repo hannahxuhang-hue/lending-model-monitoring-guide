@@ -1,0 +1,26 @@
+name: Worked examples
+
+# Re-runs the worked-example notebooks on every change, so the numbers quoted
+# in the guide stay reproducible.
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  run-notebooks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install dependencies
+        run: pip install -r requirements.txt nbconvert ipykernel
+      - name: Run notebooks
+        working-directory: examples
+        run: |
+          for nb in walkthrough.ipynb ; do
+            jupyter nbconvert --to notebook --execute "$nb" --output "/tmp/$nb"
+          done

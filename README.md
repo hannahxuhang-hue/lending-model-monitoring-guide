@@ -1,5 +1,7 @@
 # Lending Model Monitoring Guide
 
+[![Worked examples](https://github.com/hannahxuhang-hue/lending-model-monitoring-guide/actions/workflows/notebooks.yml/badge.svg)](https://github.com/hannahxuhang-hue/lending-model-monitoring-guide/actions/workflows/notebooks.yml)
+
 **A practical monitoring framework for lending models at small institutions: CDFIs, community development
 credit unions, community banks, and nonprofit loan funds.**
 
